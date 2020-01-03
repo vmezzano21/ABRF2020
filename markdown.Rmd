@@ -1,5 +1,6 @@
 ---
-title: "NanoString GeoMx Digital Spatial Profiling/nTenX Spatial Transcriptomics"
+title: "NanoString GeoMx DSP
+        10X Visium"
 author: "ExpPath, Grants NIH/NCI 5 P30CA16087, S10 OD021747"
 date: "January 2, 2020"
 output: ioslides_presentation
@@ -33,6 +34,7 @@ knitr::opts_chunk$set(echo = FALSE)
 knitr::include_graphics('images/barchem.png')
 
 ```
+
 - Quantitative: nCounter technology in use for a decade, R probe count is highly specific and reproducible (Veldman-Jones, 2015). No amplification step.
 - Most of the steps (staining, collection and readout) are automated decreasing operator bias.
 
@@ -48,9 +50,9 @@ knitr::include_graphics('images/segments.png')
 
 
 ## GeoMx: Throughput
--Four slides loaded into the instrument.
--Staining: prep 4 hrs, ON, 3 hrs
--Collection: with user ~3 hrs
+- Four slides loaded into the instrument.
+- Staining: prep 4 hrs, ON, 3 hrs
+- Collection: with user ~3 hrs
              without user depends on how many areas were collected.
              If 96 wells ~3hrs.
              
