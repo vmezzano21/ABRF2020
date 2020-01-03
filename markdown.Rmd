@@ -1,0 +1,50 @@
+---
+title: "NanoString GeoMx Digital Spatial Profiling/nTenX Spatial Transcriptomics"
+author: "ExpPath, Grants NIH/NCI 5 P30CA16087, S10 OD021747"
+date: "January 2, 2020"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Overview
+
+- What does it measure?
+- How does it measure it? Technology / Chemistry
+- Set up or deployment: Training from company, troubleshooting
+- Technical Pros/Cons
+- Costs and Throughput
+
+## What does the technique measure?
+
+- GeoMx: Proteins and RNA in human FPPE and frozen samples, Proteins in Mouse FPPE and frozen samples.
+- Visium: RNA in human frozen samples
+
+## GeoMx: How does it measure it?
+
+- Protein detection: antibody based
+- RNA detection: known sequence oligo
+- Quantification: nCounter, each 'Reporter Tag' is counted in a dedicated separate instrument.
+
+## GeoMx: Technical Advantages:
+```{r , echo=FALSE, fig.align='center', out.width='80%', fig.show='asis'}
+knitr::include_graphics('images/barchem.png')
+
+```
+- Quantitative: nCounter technology in use for a decade, R probe count is highly specific and reproducible (Veldman-Jones, 2015). No amplification step.
+- Most of the steps (staining, collection and readout) are automated decreasing operator bias.
+
+## GeoMx: Technical Limitations:
+
+- Resolution limitations, can resolve (in theory) single cell but would be extremely expensive (one well).
+- Area of illumination must be larger for RNA from FFPE.
+- Region of interest cannot be larger than 700x800 $\mu M$
+- Antibodies and DNA probes pre-selected by NanoString (or requested by user at a cost).
+```{r , echo=FALSE, fig.align='center', out.width='80%', fig.show='asis'}
+knitr::include_graphics('images/segments.png')
+
+#remember to save the images that will go in the document in an 'images' folder that is located in the same directory as this document.
+```
+
