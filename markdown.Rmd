@@ -44,7 +44,13 @@ knitr::include_graphics('images/barchem.png')
 - Antibodies and DNA probes pre-selected by NanoString (or requested by user at a cost).
 ```{r , echo=FALSE, fig.align='center', out.width='80%', fig.show='asis'}
 knitr::include_graphics('images/segments.png')
-
-#remember to save the images that will go in the document in an 'images' folder that is located in the same directory as this document.
 ```
 
+
+## GeoMx: Throughput
+-Four slides loaded into the instrument.
+-Staining: prep 4 hrs, ON, 3 hrs
+-Collection: with user ~3 hrs
+             without user depends on how many areas were collected.
+             If 96 wells ~3hrs.
+             
